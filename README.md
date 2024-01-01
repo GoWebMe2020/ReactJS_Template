@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# ReactJS Template Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+This is a template to demonstrate how to setup a ReactJS frontend with a ReactJS frontend. The intention is to allow users to fork this repo or use from a template, along with the Rails template, configure it and use it to their liking.
 
-In the project directory, you can run:
+## Technologies & References
 
-### `npm start`
+* ReactJS (https://react.dev/)
+* React Router Dom (https://www.npmjs.com/package/react-router-dom)
+* Axios (https://github.com/axios/axios)
+* React Toastify (https://www.npmjs.com/package/react-toastify)
+* Dorenv (https://www.npmjs.com/package/react-dotenv)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## How To Use This Repo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Using the Repository as a Template
 
-### `npm test`
+To create a new repository from this template:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Navigate to the template repository on GitHub.
+* Click the "Use this template" button.
+* Choose the owner, name, description, and visibility for your new repository.
+* Click "Create repository from template."
 
-### `npm run build`
+#### Forking the Repository
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To fork the repository (which is slightly different from using it as a template):
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* Navigate to the original repository on GitHub.
+* Click the "Fork" button in the top right corner.
+* Choose the account where you want to fork the repository.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### Rename and Customize the Forked Repository
 
-### `npm run eject`
+After forking or creating a new repository from the template, you can rename and customize it:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Clone the forked or new repository to your local machine.
+Make your changes, rename files, customize code, etc.
+Commit and push these changes back to GitHub.
+```bash
+  $ git commit -am "Customizing template"
+  $ git push origin master
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### Important
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Be sure to fork the Rails backend template related to the repo <URL>**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+#### Additional Notes
 
-## Learn More
+Remember to update environment-specific settings (like database configuration) for each new project you create from the template.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Setup
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Install all the dependencies
+  ```bash
+    $ npm install
+  ```
+2. Start the application
+  ```bash
+    $ npm start
+  ```
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Other
